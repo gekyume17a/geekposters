@@ -1,5 +1,5 @@
-// Product Database
-const products = [
+// Sample product data
+export const products = [
     {
         id: 1,
         name: 'Porsche GT3 RS',
@@ -200,7 +200,3 @@ const products = [
     }
 ];
 
-// Export for use in other files
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = products;
-}
